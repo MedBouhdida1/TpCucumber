@@ -1,7 +1,7 @@
-Feature: Google search
-  as a user i want test google search function
+Feature: Google Search
+  as a user i want test google search funciton
 
   Scenario: basic search
-    Given I open Google search page
-    When I look up the word "Selenium"
-    Then Search results dislplay the word "Selenium"
+    Given I open google search page
+    When I lookup the word "selenium"
+    Then Search results display the word "Selenium"
