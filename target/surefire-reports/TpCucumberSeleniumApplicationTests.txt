@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TpCucumberSeleniumApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.743 s <<< FAILURE! -- in TpCucumberSeleniumApplicationTests
+Google search.basic search -- Time elapsed: 0.161 s <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEDBOUHDIDA', ip: '192.168.1.15', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at stepDefinition.createWebDriver(stepDefinition.java:19)
+
+Google search.basic search -- Time elapsed: 0.162 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at stepDefinition.quitWebDriver(stepDefinition.java:23)
+
